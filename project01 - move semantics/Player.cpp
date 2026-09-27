@@ -1,8 +1,8 @@
 /**
  * @file Player.cpp
  * @author Hyuncheol Lee
- * @date 2026/09/20
- * @brief Implements the Player class and its member functions.
+ * @date 2026/09/21
+ * @brief Implements the Player class and its member functions
  */
 
 #include "Player.hpp"
