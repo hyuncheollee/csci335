@@ -19,6 +19,9 @@ Inventory& Player::getInventoryRef() {
     return inventory_;
 }
 
+Player::Player(const Player& rhs)
+    : inventory_(rhs.inventory_), name_(rhs.name_) {}
+
 Player::Player(Player&& rhs)
     : inventory_(std::move(rhs.inventory_)), name_(std::move(rhs.name_)) {}
 
